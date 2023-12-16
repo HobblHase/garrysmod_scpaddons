@@ -5,7 +5,7 @@ local banned_classes = {
 	"weapon_fists"
 }
 
-hook.Add("canDropWeapon", "CheckBannedWeapons", function(ply, wep)
+hook.Add("canDropWeapon", "HOPPL_CheckBannedWeapons", function(ply, wep)
     local wepClass = wep:GetClass()
 
     if table.HasValue(banned_classes, wepClass) then
