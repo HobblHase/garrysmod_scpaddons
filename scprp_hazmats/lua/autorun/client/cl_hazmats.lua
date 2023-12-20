@@ -5,7 +5,7 @@ if CLIENT then
     local function HazmatColorEffect()
         local ply = LocalPlayer()
 
-        local clrs = {
+        local clrs = { -- Preset from https://github.com/OverlordAkise
             ["$pp_colour_addr"] = 0.00,
             ["$pp_colour_addg"] = 0.43,
             ["$pp_colour_addb"] = 0,
